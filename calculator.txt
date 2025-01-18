@@ -1,0 +1,17 @@
+  GNU nano 8.2                     calculator.txt
+Class Calculator{
+    public static int add(int a, int b){
+      return a+b;
+    }
+    public static int sub(int a, int b){
+      return a-b;
+    }
+    public static int multiply(int a, int b){
+      return a*b;
+    }
+    public static void main(String args[]){
+      add(10,20);
+      sub(20,10);
+      multiply(10,20);
+    }
+}
